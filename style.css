@@ -1,0 +1,54 @@
+body {
+    min-width: 1000px;
+    margin: 0 20%;
+    font-family: sans-serif;
+}
+
+.tabs {
+}
+
+.tabs__tab-bar {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
+
+.tabs__tab {
+    margin: 0 0.5em;
+    padding: 0.5em;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tabs__tab:hover {
+    background-color: #BBBBBB;
+}
+
+.tabs__tab--selected {
+    background-color: #DDDDDD;
+}
+
+.tabs__content {
+    padding: 0.1em 1em;
+    font-size: 1.2em;
+    background-color: #DDDDDD;
+}
+
+.spinner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.spinner img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -128px;
+    margin-left: -128px;
+    width: 256px;
+    height: 256px;
+}
